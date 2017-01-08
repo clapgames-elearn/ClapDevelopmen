@@ -1,0 +1,13 @@
+Softwares Required:
+===================
+
+1) Node.js v4.14.0
+2) Git
+3) Source Tree (for version control system like Git)
+4) IDE (sublime text editor || notepad++ || Atom || Visual code editor)
+
+Run the following commands in CMD
+=====================================================
+
+1) npm -install
+2) node start //to run the server and we can access localhost:3000/ for we site.
