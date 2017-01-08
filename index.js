@@ -6,7 +6,7 @@ const   path = require('path'),
             'ui' : 'UI-App/',
             'build' : 'build/'
         },
-        port = 3000;
+        port = process.env.PORT || 3000;
 
 app.use(express.static(__dirname +'/'+ appPaths.ui)); 
 
